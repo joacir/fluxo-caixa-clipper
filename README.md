@@ -2,6 +2,10 @@
 
 Software de Fluxo de Caixa desenvolvido na linguagem Clipper.
 
+Esse foi o primeiro software sobre Fluxo de Caixa que desenvolvi ainda na faculdade em meados de 1999. Por isso ainda há alguns bugs devido a minha inexperiência na época.
+
+Estou disponibilizando os fontes mais para minha própria documentação e também para ser utilizado por curiosos, nostálgicos e pesquisadores.
+
 ## Funcionalidades
 
 - Cadastro de Clientes
