@@ -1,0 +1,26 @@
+.prg.obj:
+   CLIPPER $*  /A /B /M /N /W
+fcaixa.OBJ   : fcaixa.PRG
+menu.OBJ     : menu.prg
+cadcli.OBJ   : cadcli.prg
+cadhis.OBJ   : cadhis.PRG
+cadban.obj   : cadban.prg
+cadlan.obj   : cadlan.prg
+cadbax.obj   : cadbax.prg
+cadmov.obj   : cadmov.prg
+funcoes.OBJ  : funcoes.PRG
+fteclaf2.obj : fteclaf2.prg
+calend.obj   : calend.prg
+calcul.obj   : calcul.prg
+abre.obj     : abre.prg
+fechac.obj   : fechac.prg
+organiz.obj  : organiz.prg
+lancac.obj   : lancac.prg
+relmov.obj   : relmov.prg
+relcli.obj   : relcli.prg
+ESTOQUE.EXE  : fcaixa.obj    funcoes.obj    abre.obj    cadcli.obj  \
+               fteclaf2.obj  cadhis.obj     menu.obj    cadlan.obj  \
+               cadbax.obj    cadmov.obj     fechac.obj  organiz.obj \
+               lancac.obj    relmov.obj     relcli.obj
+  rtlink @fcaixa out fcaixa
+
